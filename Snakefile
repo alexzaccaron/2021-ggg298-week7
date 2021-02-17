@@ -1,7 +1,7 @@
 rule all:
     input: 'hello.txt', 'howdy.txt'
 
-rules hello:
+rule hello:
     output: 'hello.txt'
     shell:
         "echo hello, world > hello.txt"
